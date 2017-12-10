@@ -1,0 +1,6 @@
+framework module HR_Bluetooth {
+  umbrella header "HR_Bluetooth-umbrella.h"
+
+  export *
+  module * { export * }
+}

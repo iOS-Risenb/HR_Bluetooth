@@ -1,4 +1,4 @@
-use_frameworks!
+
 
 target 'HR_Bluetooth_Example' do
   pod 'HR_Bluetooth', :path => '../'
@@ -6,6 +6,5 @@ target 'HR_Bluetooth_Example' do
   target 'HR_Bluetooth_Tests' do
     inherit! :search_paths
 
-    
   end
 end

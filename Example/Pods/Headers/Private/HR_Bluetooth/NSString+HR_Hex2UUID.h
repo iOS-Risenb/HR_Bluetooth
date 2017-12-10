@@ -1,0 +1,1 @@
+../../../../../HR_Bluetooth/Classes/NSString+HR_Hex2UUID.h
