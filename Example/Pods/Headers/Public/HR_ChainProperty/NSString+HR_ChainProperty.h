@@ -1,1 +1,0 @@
-../../../HR_ChainProperty/HR_ChainProperty/Classes/NSString+HR_ChainProperty.h

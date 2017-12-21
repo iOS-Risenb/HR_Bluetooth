@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0ABAC4C54D4DAC3CF85C9C8F39713B7B /* HR_Bluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6282084D34607EABA8CFF2DF09A52482 /* HR_Bluetooth-dummy.m */; };
-		0D55E591318CD0886FFB3186893CCA95 /* NSData+HR_HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF3D28E01B974D0FA8FCD7A775763E1 /* NSData+HR_HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10C16D461D8A9D418018F2D920547389 /* NSString+HR_HexToData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C0DE44BF478656C8ED69D22360D39 /* NSString+HR_HexToData.m */; };
+		0D55E591318CD0886FFB3186893CCA95 /* NSData+HR_HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5BA642520A28039C629A7D9FC107A0 /* NSData+HR_HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C16D461D8A9D418018F2D920547389 /* NSString+HR_HexToData.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B8C3CA7EB9A41EC15B2865BFE12D5 /* NSString+HR_HexToData.m */; };
 		11AC572940C71555AD7BD6890D767977 /* HR_BT_Center.m in Sources */ = {isa = PBXBuildFile; fileRef = 8426808BFAE65BABA9FF09585AC27AF6 /* HR_BT_Center.m */; };
-		168C87096A78179B0533E1AF72215FD2 /* HR_DataHexString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10889E213900F65A7F39340ECAC972C0 /* HR_DataHexString-dummy.m */; };
-		4B5A109AB763B1399FB87BB3C952FC73 /* NSData+HR_HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5631CAA44AC75ED9C642C583D73BCC94 /* NSData+HR_HexString.m */; };
+		168C87096A78179B0533E1AF72215FD2 /* HR_DataHexString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CB229AAACC6116DB207F720A5DF6D8 /* HR_DataHexString-dummy.m */; };
+		4B5A109AB763B1399FB87BB3C952FC73 /* NSData+HR_HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B640B42D14A9B697AAA1E4854DCA8DC4 /* NSData+HR_HexString.m */; };
 		676C855A9831C544FC36D3FC0C0E8DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6B8382D29A901EBA6070580B54E6F1FE /* Pods-HR_Bluetooth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469739228DD03726A00F2149AE4A8592 /* Pods-HR_Bluetooth_Example-dummy.m */; };
 		84985F323F796A46D85AB038E55372CE /* NSString+HR_Hex2UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 978A57A20B8124030C482CAA1E1B2A63 /* NSString+HR_Hex2UUID.m */; };
 		8598633FCC8568D33CB09A8E6B707499 /* NSString+HR_Hex2UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F987FF75B8406B323F130440EEE354 /* NSString+HR_Hex2UUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AF6D79A4DE96C508CA630C11ED68C96 /* NSString+HR_HexToData.h in Headers */ = {isa = PBXBuildFile; fileRef = AF52BE1B34AADA13A46EE91E8EC296D1 /* NSString+HR_HexToData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF6D79A4DE96C508CA630C11ED68C96 /* NSString+HR_HexToData.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD43718A4F5F058976740CD9F08B675 /* NSString+HR_HexToData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C0C830232DC3B6E8C568192B8340DCC /* HR_BT_Center.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7D69637BD9D8779CD5504E65D5739F /* HR_BT_Center.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C716F29027B23CA9ADF339829CE03D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F4C73778845B62322C17D04973DA6281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -57,41 +57,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10889E213900F65A7F39340ECAC972C0 /* HR_DataHexString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HR_DataHexString-dummy.m"; sourceTree = "<group>"; };
+		044081AF5DD82C963EAD46460604764A /* HR_DataHexString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HR_DataHexString-prefix.pch"; sourceTree = "<group>"; };
+		15CB229AAACC6116DB207F720A5DF6D8 /* HR_DataHexString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HR_DataHexString-dummy.m"; sourceTree = "<group>"; };
 		24A2CF5DB936F7DCB73E71422A52916B /* libHR_Bluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHR_Bluetooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F987FF75B8406B323F130440EEE354 /* NSString+HR_Hex2UUID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HR_Hex2UUID.h"; path = "HR_Bluetooth/Classes/NSString+HR_Hex2UUID.h"; sourceTree = "<group>"; };
 		469739228DD03726A00F2149AE4A8592 /* Pods-HR_Bluetooth_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HR_Bluetooth_Example-dummy.m"; sourceTree = "<group>"; };
 		488404029689246A08C35EE31C7F6545 /* Pods-HR_Bluetooth_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HR_Bluetooth_Tests-resources.sh"; sourceTree = "<group>"; };
 		4C53026F113E306CFE0BC68297E08B8C /* Pods-HR_Bluetooth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HR_Bluetooth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		543F8570D5E5B4E43171A56EE9305661 /* HR_Bluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HR_Bluetooth-prefix.pch"; sourceTree = "<group>"; };
-		5631CAA44AC75ED9C642C583D73BCC94 /* NSData+HR_HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+HR_HexString.m"; path = "HR_DataHexString/Classes/NSData+HR_HexString.m"; sourceTree = "<group>"; };
 		59D80068D871D3444B45EA684AF4B9FA /* libHR_DataHexString.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHR_DataHexString.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BF3D28E01B974D0FA8FCD7A775763E1 /* NSData+HR_HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+HR_HexString.h"; path = "HR_DataHexString/Classes/NSData+HR_HexString.h"; sourceTree = "<group>"; };
-		5E9C0DE44BF478656C8ED69D22360D39 /* NSString+HR_HexToData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HR_HexToData.m"; path = "HR_DataHexString/Classes/NSString+HR_HexToData.m"; sourceTree = "<group>"; };
 		6282084D34607EABA8CFF2DF09A52482 /* HR_Bluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HR_Bluetooth-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A181E759ECE99DF8004660B1C8EC3B5 /* libPods-HR_Bluetooth_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HR_Bluetooth_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7928409299372DC5C4DEE5516615EFB1 /* Pods-HR_Bluetooth_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HR_Bluetooth_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C5BA642520A28039C629A7D9FC107A0 /* NSData+HR_HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+HR_HexString.h"; path = "HR_DataHexString/Classes/NSData+HR_HexString.h"; sourceTree = "<group>"; };
 		7E29A0850D23A11ADB5260FBCAA935EA /* Pods-HR_Bluetooth_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HR_Bluetooth_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7E8BC5A61363A95D52AA195AC5C501AB /* UIColor+HR_ChainProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HR_ChainProperty.h"; path = "HR_ChainProperty/Classes/UIColor+HR_ChainProperty.h"; sourceTree = "<group>"; };
 		8426808BFAE65BABA9FF09585AC27AF6 /* HR_BT_Center.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HR_BT_Center.m; path = HR_Bluetooth/Classes/HR_BT_Center.m; sourceTree = "<group>"; };
-		8A0B15DCCCC8493B9E7DF84EBD919482 /* NSString+HR_ChainProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HR_ChainProperty.h"; path = "HR_ChainProperty/Classes/NSString+HR_ChainProperty.h"; sourceTree = "<group>"; };
 		8C5DBCB35F6BA2B5EEB3EDB774ABC649 /* Pods-HR_Bluetooth_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HR_Bluetooth_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94617D7CB79074F96BE3AB6A54A9AB64 /* HR_DataHexString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HR_DataHexString-prefix.pch"; sourceTree = "<group>"; };
+		970B8C3CA7EB9A41EC15B2865BFE12D5 /* NSString+HR_HexToData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HR_HexToData.m"; path = "HR_DataHexString/Classes/NSString+HR_HexToData.m"; sourceTree = "<group>"; };
 		978A57A20B8124030C482CAA1E1B2A63 /* NSString+HR_Hex2UUID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HR_Hex2UUID.m"; path = "HR_Bluetooth/Classes/NSString+HR_Hex2UUID.m"; sourceTree = "<group>"; };
-		986F303032FE3EBE23421C47E836825D /* HR_DataHexString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HR_DataHexString.xcconfig; sourceTree = "<group>"; };
 		A5565C66D71A082861ED2ED744C7D58D /* libPods-HR_Bluetooth_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HR_Bluetooth_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A807FDF64205D47B385E2649057A21D5 /* HR_ChainProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HR_ChainProperty.h; path = HR_ChainProperty/Classes/HR_ChainProperty.h; sourceTree = "<group>"; };
-		AF52BE1B34AADA13A46EE91E8EC296D1 /* NSString+HR_HexToData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HR_HexToData.h"; path = "HR_DataHexString/Classes/NSString+HR_HexToData.h"; sourceTree = "<group>"; };
+		B640B42D14A9B697AAA1E4854DCA8DC4 /* NSData+HR_HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+HR_HexString.m"; path = "HR_DataHexString/Classes/NSData+HR_HexString.m"; sourceTree = "<group>"; };
 		BA9161F271582C03DD20682A8DF7E314 /* Pods-HR_Bluetooth_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HR_Bluetooth_Example-resources.sh"; sourceTree = "<group>"; };
 		BD7E2A6C2F3ED98442004EABB3DDB7DF /* HR_Bluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HR_Bluetooth.xcconfig; sourceTree = "<group>"; };
+		C7FA4CD6FF7EC400268AA2FA8F8C2853 /* HR_DataHexString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HR_DataHexString.xcconfig; sourceTree = "<group>"; };
 		CB83D50EB21774CEF7B52EA891035840 /* Pods-HR_Bluetooth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HR_Bluetooth_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CFEC5AA9B2A01D80189F869134456CC7 /* Pods-HR_Bluetooth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HR_Bluetooth_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D40023A2F4D2B56514127930A19F6CAC /* Pods-HR_Bluetooth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HR_Bluetooth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D8EF267D4E57D49164106C6A3ABD2727 /* Pods-HR_Bluetooth_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HR_Bluetooth_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DD151150A1F8AA637535C211C42E81A3 /* Pods-HR_Bluetooth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HR_Bluetooth_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA7D69637BD9D8779CD5504E65D5739F /* HR_BT_Center.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HR_BT_Center.h; path = HR_Bluetooth/Classes/HR_BT_Center.h; sourceTree = "<group>"; };
+		EBD43718A4F5F058976740CD9F08B675 /* NSString+HR_HexToData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HR_HexToData.h"; path = "HR_DataHexString/Classes/NSString+HR_HexToData.h"; sourceTree = "<group>"; };
 		FAC9181E96A3E031B50614FBE7DEC258 /* Pods-HR_Bluetooth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HR_Bluetooth_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FCD42E696AE0B8E6DE2FC1483CA02A77 /* Pods-HR_Bluetooth_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HR_Bluetooth_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +161,17 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		353FA29BB834A43FE3B44231F5F79723 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA4CD6FF7EC400268AA2FA8F8C2853 /* HR_DataHexString.xcconfig */,
+				15CB229AAACC6116DB207F720A5DF6D8 /* HR_DataHexString-dummy.m */,
+				044081AF5DD82C963EAD46460604764A /* HR_DataHexString-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HR_DataHexString";
+			sourceTree = "<group>";
+		};
 		4891A0B0AA835258E19337E344181753 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,21 +183,10 @@
 			path = "Example/Pods/Target Support Files/HR_Bluetooth";
 			sourceTree = "<group>";
 		};
-		509B5E3AB2C621C87C2A3118A75C2F51 /* HR_ChainProperty */ = {
+		719083E673209627495DA570C955CEE8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A807FDF64205D47B385E2649057A21D5 /* HR_ChainProperty.h */,
-				8A0B15DCCCC8493B9E7DF84EBD919482 /* NSString+HR_ChainProperty.h */,
-				7E8BC5A61363A95D52AA195AC5C501AB /* UIColor+HR_ChainProperty.h */,
-			);
-			path = HR_ChainProperty;
-			sourceTree = "<group>";
-		};
-		77752284CFAD0F95AD01C956611A7A96 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				509B5E3AB2C621C87C2A3118A75C2F51 /* HR_ChainProperty */,
-				7E7273FC30F40DA44ED7788E7CFFB2B1 /* HR_DataHexString */,
+				78EBA19E80853F081F9FECCB9F8CFFF6 /* HR_DataHexString */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -209,39 +206,28 @@
 			path = "Target Support Files/Pods-HR_Bluetooth_Example";
 			sourceTree = "<group>";
 		};
+		78EBA19E80853F081F9FECCB9F8CFFF6 /* HR_DataHexString */ = {
+			isa = PBXGroup;
+			children = (
+				7C5BA642520A28039C629A7D9FC107A0 /* NSData+HR_HexString.h */,
+				B640B42D14A9B697AAA1E4854DCA8DC4 /* NSData+HR_HexString.m */,
+				EBD43718A4F5F058976740CD9F08B675 /* NSString+HR_HexToData.h */,
+				970B8C3CA7EB9A41EC15B2865BFE12D5 /* NSString+HR_HexToData.m */,
+				353FA29BB834A43FE3B44231F5F79723 /* Support Files */,
+			);
+			path = HR_DataHexString;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				11990ACC83F958371DE3F2B977D2F124 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				77752284CFAD0F95AD01C956611A7A96 /* Pods */,
+				719083E673209627495DA570C955CEE8 /* Pods */,
 				E24114E6F5C9C4EC16BDE7DB5645AC0F /* Products */,
 				0A05B2704C809649BE006FDF55E6C439 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E7273FC30F40DA44ED7788E7CFFB2B1 /* HR_DataHexString */ = {
-			isa = PBXGroup;
-			children = (
-				5BF3D28E01B974D0FA8FCD7A775763E1 /* NSData+HR_HexString.h */,
-				5631CAA44AC75ED9C642C583D73BCC94 /* NSData+HR_HexString.m */,
-				AF52BE1B34AADA13A46EE91E8EC296D1 /* NSString+HR_HexToData.h */,
-				5E9C0DE44BF478656C8ED69D22360D39 /* NSString+HR_HexToData.m */,
-				9EBA25A1C6D61908939FD8F14FE4C51F /* Support Files */,
-			);
-			path = HR_DataHexString;
-			sourceTree = "<group>";
-		};
-		9EBA25A1C6D61908939FD8F14FE4C51F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				986F303032FE3EBE23421C47E836825D /* HR_DataHexString.xcconfig */,
-				10889E213900F65A7F39340ECAC972C0 /* HR_DataHexString-dummy.m */,
-				94617D7CB79074F96BE3AB6A54A9AB64 /* HR_DataHexString-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HR_DataHexString";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -518,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -528,7 +514,7 @@
 		};
 		2562008AEB4C2E36769FC7E5378E4633 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 986F303032FE3EBE23421C47E836825D /* HR_DataHexString.xcconfig */;
+			baseConfigurationReference = C7FA4CD6FF7EC400268AA2FA8F8C2853 /* HR_DataHexString.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -645,7 +631,7 @@
 		};
 		AFC050B2219BB34D7C691E5C19330EB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 986F303032FE3EBE23421C47E836825D /* HR_DataHexString.xcconfig */;
+			baseConfigurationReference = C7FA4CD6FF7EC400268AA2FA8F8C2853 /* HR_DataHexString.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -762,7 +748,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;

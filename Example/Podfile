@@ -7,7 +7,6 @@ target 'HR_Bluetooth_Example' do
     inherit! :search_paths
     
     pod 'HR_DataHexString'
-    pod 'HR_ChainProperty'
 
   end
 end
