@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HR_Bluetooth/Classes/**/*.{h,m}"
+  "source_files": "HR_Bluetooth/Classes/**/*.{h,m}",
+  "dependencies": {
+    "HR_DataHexString": [
+
+    ],
+    "HR_ChainProperty": [
+
+    ]
+  }
 }

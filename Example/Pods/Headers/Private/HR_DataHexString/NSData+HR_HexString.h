@@ -1,0 +1,1 @@
+../../../HR_DataHexString/HR_DataHexString/Classes/NSData+HR_HexString.h

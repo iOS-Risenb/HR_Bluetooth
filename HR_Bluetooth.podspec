@@ -13,7 +13,7 @@ s.name          = 'HR_Bluetooth'
 # a:较大更新
 # b:增加功能或者修改api等
 # c:较小修改
-s.version       = '0.1.1'
+s.version       = '0.1.2'
 
 
 # 2.2:摘要(创建时更新一次即可)
@@ -73,7 +73,8 @@ s.source_files = 'HR_Bluetooth/Classes/**/*.{h,m}'
 
 # 3.4:依赖库
 #====================================================================
-#s.dependency 'xxx'
+s.dependency 'HR_DataHexString'
+s.dependency 'HR_ChainProperty'
 
 end
 

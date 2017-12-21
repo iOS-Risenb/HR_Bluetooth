@@ -1,1 +1,0 @@
-../../../../../HR_Bluetooth/Classes/NSString+HR_UTF8.h
